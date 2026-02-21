@@ -1,0 +1,86 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #fff;
+
+    justify-content: space-between;
+    height: 20px;
+    padding: 20px;
+
+
+}
+
+nav ul a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 4px;
+    list-style: none;
+    font-size: bold;
+    padding-right: 600px;
+}
+
+nav img {
+    height: 40px;
+    width: 80px;
+    padding-top: -10px;
+}
+
+nav button {
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: #5b13ba;
+    border-style: none;
+    color: whitesmoke;
+}
+
+main div img {
+    height: 300px;
+    width: 500px;
+    padding-right: 350px;
+
+
+}
+
+main div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 80px;
+}
+
+main div h1 {
+    color: #6141b4;
+    font-size: bold;
+    height: 100px;
+    width: 500px;
+    padding-left: 40px;
+
+}
+
+p {
+
+    margin-top: -150px;
+    margin-left: 80px;
+    height: 10px;
+    width: 300px;
+    color: rgb(75, 74, 74);
+    align-items: center;
+}
+
+main button {
+    margin-left: 80px;
+    margin-top: 60px;
+    background-color: #5437b3;
+    border-radius: 5px;
+    border-style: none;
+    height: 30px;
+    width: 150px;
+    color: whitesmoke;
+    font-size: bold;
+}
