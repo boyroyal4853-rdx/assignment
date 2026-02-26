@@ -62,22 +62,33 @@
         margin-left: 60px;
     }
 
-    li img {
+    .img {
         display: flex;
-        margin-left: 700px;
-        margin-top: -180px;
-        justify-content: space-between;
-        flex-direction: row;
+        height: 50px;
+        width: 80px;
+        gap: 400px;
+        margin-left: 560px;
+        margin-top: -350px;
+    }
 
+    li :nth-child(2) {
+        position: relative;
+        left: 50px;
+        top: 40px;
+
+    }
+
+    body nave ul a {
+        margin-left: 730px;
     }
 
     main h1 {
         display: flex;
         flex-direction: row;
         justify-content: center;
-        margin-top: -260px;
-        font-size: 60px;
-        margin-left: 190px;
+        margin-top: 30px;
+        font-size: 80px;
+        margin-left: 330px;
 
 
 
@@ -92,12 +103,27 @@
         color: rgb(75, 74, 74);
     }
 
-    main div icon {
+    main div b {
 
 
         margin-left: 550px;
         margin-top: 60px;
         gap: 30px;
+        color: #000000;
+        gap: 25px;
+
+
+    }
+
+    .first {
+        border-radius: 5px;
+        border-style: 2px;
+    }
+
+    .icon {
+        color: whitesmoke;
+        background-color: #000000;
+        border-radius: 5px;
 
     }
 
@@ -142,6 +168,16 @@
             <li>FAQ</li>
             <li>About</li>
         </ul>
+        <ul><a href="">
+
+
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="black">
+                    <path
+                        d="M10 2a8 8 0 105.293 14.293l4.707 4.707 1.414-1.414-4.707-4.707A8 8 0 0010 2zm0 2a6 6 0 110 12 6 6 0 010-12z" />
+                </svg>
+            </a>
+        </ul>
+
         <button>Search</button>
     </nav>
 
@@ -155,18 +191,19 @@
             </a>
 
         </div>
+
     </main>
 
-    <!-- <li>
+    <li class="img">
 
-        <a>
 
-            <img src="../Project 03/assets/globe.png">
+        <img src="../Project 03/assets/globe.png">
 
-        </a>
+
 
         <img src="../Project 03/assets/start.png">
-    </li> -->
+
+    </li>
     <main>
 
         <h1>What's Trend in 2026?</h1>
@@ -175,17 +212,16 @@
             exercitation ulamco laboris nisit ut</p>
 
         <div>
-            <icon>
+            <b>
 
-                <button>Email Address</button>
+                <button class="first">Email Address</button>
 
 
-                <a>
+                <button class="icon"> JOIN NOW</button>
 
-                    <button> JOIN NOW</button>
-                </a>
 
-            </icon>
+            </b>
+
 
 
         </div>
