@@ -1,0 +1,28 @@
+ nav div img {
+     height: 40px;
+     width: 120px;
+
+ }
+
+ nav div ul {
+     display: flex;
+     margin-left: 550px;
+     gap: 40px;
+     list-style: none;
+     color: rgb(77, 72, 72);
+ }
+
+ .green {
+     color: rgb(86, 202, 164);
+     font-size: 20px;
+
+ }
+
+ main div img {
+     height: 500px;
+     width: 600px;
+     position: fixed;
+     left: 220px;
+     top: 80px;
+     font-size: 20px;
+ }
