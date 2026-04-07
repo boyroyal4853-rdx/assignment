@@ -69,3 +69,57 @@
 
 
 }
+
+.p2 {
+    color: whitesmoke;
+    margin-left: 55px;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    z-index: 10;
+}
+
+.p2style {
+    margin-left: 45px;
+    margin-top: -35px;
+    z-index: 2;
+
+}
+
+.bottom {
+    color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    gap: 75px;
+    margin-left: 45px;
+}
+
+.first {
+    display: flex;
+    gap: 10px;
+}
+
+.head {
+    font-size: 30px;
+}
+
+.happy {
+    color: whitesmoke;
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+.second {
+
+    display: flex;
+    gap: 10px;
+}
+
+.head2 {
+    font-size: 30px;
+}
+
+.year {
+    color: whitesmoke;
+    font-size: 15px;
+    margin-top: 30px;
+}
