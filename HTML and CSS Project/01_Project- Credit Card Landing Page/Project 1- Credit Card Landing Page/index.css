@@ -1,3 +1,12 @@
+  body {
+      border: 2px;
+      border-style: none;
+      justify-content: center;
+      margin-left: 250px;
+      margin-right: 250px;
+      padding-top: 20px;
+  }
+
   .body {
       border: 2px;
       border-style: none;
@@ -48,13 +57,15 @@
       height: 400px;
       width: 530px;
       margin-left: 240px;
+      margin-top: -40px;
+
   }
 
   .front-card {
       height: 400px;
       width: 530px;
       margin-left: 300px;
-      margin-top: -360px;
+      margin-top: -330px;
 
   }
 
@@ -85,7 +96,7 @@
       font-size: 15px;
       font-family: Georgia, 'Times New Roman', Times, serif;
       margin-left: 40px;
-      margin-top: 50px;
+      margin-top: 30px;
       display: flex;
   }
 
@@ -143,4 +154,141 @@
       color: whitesmoke;
       font-size: 15px;
       margin-top: 10px;
+  }
+
+  /* page2 */
+  /* body {
+      border: 2px;
+      border-style: none;
+      justify-content: center;
+      margin-left: 250px;
+      margin-right: 250px;
+      padding-top: 20px;
+  } */
+
+  #navbar {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      border: 2px;
+      border-style: none;
+      background-color: rgb(56, 56, 56);
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 100px;
+      padding-right: 100px;
+      margin-top: 20px;
+
+
+  }
+
+  #navbar img {
+      height: 80px;
+      width: 80px;
+  }
+
+
+  .text {
+      font-size: 40px;
+      width: 350px;
+  }
+
+  .highlight {
+      color: #ff00aa;
+      /* pink color */
+  }
+
+  .midle {
+      display: flex;
+      color: whitesmoke;
+      margin-top: 10px;
+      margin-left: 40px;
+      margin-right: 40px;
+      gap: 80px;
+
+
+  }
+
+  #p1 {
+      font-size: 13px;
+      color: rgb(125, 121, 121);
+      margin-top: 80px;
+  }
+
+  #main_cloud {
+      margin-top: 70px;
+      display: flex;
+      text-align: center;
+      margin-left: 50px;
+      margin-left: 40px;
+      gap: 45px;
+  }
+
+  #cloud_a {
+      height: 150px;
+      width: 170px;
+      background-color: rgb(46, 41, 41);
+      color: antiquewhite;
+      flex-direction: column;
+      padding: 5px;
+      border: 1px solid white;
+  }
+
+  #cloud {
+      height: 150px;
+      width: 170px;
+      background-color: rgb(66, 63, 63);
+      color: antiquewhite;
+      padding: 5px;
+      border: 2px solid white;
+      margin-top: -30px;
+
+
+  }
+
+  #cloud_c {
+      height: 150px;
+      width: 170px;
+      background-color: rgb(48, 47, 47);
+      color: antiquewhite;
+      border: 1px solid white;
+      padding: 5px;
+
+
+
+  }
+
+  #cloud_a:hover {
+      margin-top: -10px;
+      background-color: rgb(66, 63, 63);
+  }
+
+  #cloud_c:hover {
+      margin-top: -10px;
+      background-color: rgb(66, 63, 63);
+  }
+
+  #cloud:hover {
+      margin-top: -10px;
+      background-color: rgb(49, 45, 45);
+  }
+
+
+
+  #cloud_a img {
+      height: 50px;
+      margin-top: 25%;
+
+  }
+
+  #cloud img {
+      height: 50px;
+      margin-top: 25%;
+
+  }
+
+  #cloud_c img {
+      height: 50px;
+      margin-top: 25%;
+
   }
